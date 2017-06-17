@@ -1,6 +1,14 @@
 body {
 	background-color: lightgray;
 }
-div {
-	border: 1px solid chocolate;
+/* Navigation Section */
+.top-navigation {
+	background-color: #fff;
+}
+.top-navigation > .content {
+	width: 970px;
+	height: 4.375rem;
+	margin: 0 auto;
+	margin-left: 14px;
+	padding-top: 19px;
 }
