@@ -10,6 +10,7 @@ body {
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
+	
 }
 .top-navigation .links {
 	float: right;
@@ -41,4 +42,5 @@ a:hover {
 }
 a {
 	color: gray;
+	text-decoration: none;
 }
