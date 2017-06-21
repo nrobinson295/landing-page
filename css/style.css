@@ -44,6 +44,9 @@ a {
 	color: gray;
 	text-decoration: none;
 }
+.intro {
+	margin: auto;
+}
 .intro img {
 	background-repeat: no-repeat;
 	background-size: cover;
