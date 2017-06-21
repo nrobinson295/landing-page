@@ -51,5 +51,7 @@ a {
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: auto;
-
+}
+.content h1 h3 {
+	text-align: center;
 }
