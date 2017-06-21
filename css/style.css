@@ -5,7 +5,7 @@ html {
 	box-sizing: inherit;
 }
 body {
-	background-color: lightgray;
+	background-color: white;
 	font-family: 'Roboto', sans-serif;
 }
 /* Navigation Section */
@@ -83,3 +83,48 @@ button:hover {
 	background-color: #ff7401;
 	cursor: cell;
 }
+.devices {
+	text-align: center;
+}
+ul {
+	list-style: none;
+}
+.devices h1 {
+	font-size: 43px;
+	padding-top: 52px;
+	padding-bottom: 22px;
+}
+.devices .caption > li {
+	float: left;
+	width: 33.3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
