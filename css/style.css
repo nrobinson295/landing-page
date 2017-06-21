@@ -49,9 +49,9 @@ a {
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 600px;
+	height: 580px;
 }
 
-.content {
+.intro .content {
 	text-align: center;
 }
