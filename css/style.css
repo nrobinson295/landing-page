@@ -45,13 +45,13 @@ a {
 	text-decoration: none;
 }
 .intro {
-	margin: auto;
-}
-.intro img {
+	background-image: url(../photos/first-background.jpg);
+	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
-	overflow: auto;
+	height: 600px;
 }
+
 .content {
 	text-align: center;
 }
