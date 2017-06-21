@@ -10,7 +10,7 @@ body {
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
-	
+
 }
 .top-navigation .links {
 	float: right;
@@ -43,4 +43,11 @@ a:hover {
 a {
 	color: gray;
 	text-decoration: none;
+}
+.intro {
+	background-position: cover;
+	background-repeat: no-repeat;
+	background-size: 40rem;
+	background-position: center bottom;
+
 }
