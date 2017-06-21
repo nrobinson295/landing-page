@@ -45,9 +45,8 @@ a {
 	text-decoration: none;
 }
 .intro {
-	background-position: cover;
 	background-repeat: no-repeat;
-	background-size: 40rem;
-	background-position: center bottom;
+	background-size: cover;
+	overflow: auto;
 
 }
