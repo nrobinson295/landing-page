@@ -6,6 +6,7 @@ html {
 }
 body {
 	background-color: lightgray;
+	font-family: 'Roboto', sans-serif;
 }
 /* Navigation Section */
 .top-navigation {
@@ -14,18 +15,18 @@ body {
 }
 .top-navigation .links {
 	float: right;
-	font-family: 'Roboto', sans-serif;
 	font-size: 25px;
 	color: #838994;
-	margin-top: -40px;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
 }
 .top-navigation > .content {
 	width: 970px;
 	height: 4.375rem;
-	line-height: 6;
-	padding: 0px 15px;
+	padding: 0 15px;
+}
+.top-navigation > .content > img {
+	padding: 1rem 0;
 }
 .top-navigation .links li {
 	display: inline-block;
@@ -55,5 +56,30 @@ a {
 .intro .content {
 	text-align: center;
 	color: white;
-	margin: -29.33em 0;
+	padding:10rem 0;
+}
+h1 {
+	font-size: 50px;
+	font-weight: 100;
+	margin-bottom: 0;
+}
+h3 {
+	font-size: 26px;
+	font-weight: 100;	
+	margin-top: 10px;
+}
+button {
+	color: white;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	border-style: none;
+	border-radius: 4px;
+	width: 147px;
+	padding: 18px;
+	font-weight: 100;
+	font-size: 18px;
+}
+button:hover {
+	background-color: #ff7401;
+	cursor: cell;
 }
