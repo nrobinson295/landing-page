@@ -11,6 +11,9 @@ body {
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 
 }
 .top-navigation .links {
@@ -45,18 +48,19 @@ a {
 	color: gray;
 	text-decoration: none;
 }
+/* intro section */
 .intro {
 	background-image: url(../photos/first-background.jpg);
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 580px;
+	height: 693px;
 }
 
 .intro .content {
 	text-align: center;
 	color: white;
-	padding:10rem 0;
+	padding:16rem 0;
 }
 h1 {
 	font-size: 50px;
@@ -83,6 +87,7 @@ button:hover {
 	background-color: #ff7401;
 	cursor: cell;
 }
+/* devices section */
 .devices {
 	text-align: center;
 }
@@ -94,9 +99,14 @@ ul {
 	padding-top: 52px;
 	padding-bottom: 22px;
 }
+.caption {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
 .devices .caption > li {
-	float: left;
-	width: 33.3%;
+	width: 20.3%;
 }
 
 
