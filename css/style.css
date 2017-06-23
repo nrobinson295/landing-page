@@ -30,6 +30,7 @@ body {
 }
 .top-navigation > .content > img {
 	padding: 1rem 0;
+	margin-left: 145px;
 }
 .top-navigation .links li {
 	display: inline-block;
@@ -103,12 +104,64 @@ ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	
+	padding-bottom: 62px;
 }
 .devices .caption > li {
 	width: 20.3%;
 }
-
+.devices .caption .captions h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+}
+/* footer */
+.social {
+	padding-bottom: 120px;
+}
+.social hr {
+	border: 0;
+	border-top: 1px solid;
+	border-top-color: #eaebec;
+	margin: 0 300px;
+}
+.social h1 {
+	font-size: 19px;
+	padding: 10px 0;
+}
+.social .icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-right: 33px;
+	padding-bottom: 20px;
+}
+.social ul li{
+	border: 2px solid black;
+	border-radius: 40px 40px;
+	height: 50px;
+	width: 50px;
+	border-color: #eaebec;
+}
+.fa-lg {
+	padding: 15px 0;
+}
+.social li {
+	margin: 0 5px;
+}
+.twitter {
+	color: #55acee;
+}
+.facebook {
+	color: #4c66a4;
+}
+.instagram {
+	color: #3f729b;
+}
+.copy {
+	font-size: 15px;
+	font-family: 'Roboto' sans-serif;
+	font-weight: 100;
+}
 
 
 
