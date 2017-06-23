@@ -24,8 +24,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 .top-navigation > .content {
-	width: 970px;
-	height: 4.375rem;
+	margin: auto;
 	padding: 0 15px;
 }
 .top-navigation > .content > img {
